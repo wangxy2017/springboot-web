@@ -30,7 +30,7 @@
             if (result.code == 0) {
                 var html = "";
                 $.each(result.data, function (i, item) {
-                    html += "<tr><td>" + item.id + "</td><td>" + item.userName + "</td><td>" + item.passWord + "</td><td>" + item.realName + "</td></tr>"
+                    html += "<tr><td>" + item.id + "</td><td>" + item.username + "</td><td>" + item.password + "</td><td>" + item.realName + "</td></tr>"
                 });
                 $("tbody").empty().append(html);
             }

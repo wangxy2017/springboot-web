@@ -26,7 +26,7 @@ public class UserController {
      *
      * @return
      */
-    @GetMapping(value = "/queryList")
+    @GetMapping("/list")
     public CommonResponse queryUserList() {
         List<User> list = userService.queryUserList();
         return new CommonResponse(0, "success", list);

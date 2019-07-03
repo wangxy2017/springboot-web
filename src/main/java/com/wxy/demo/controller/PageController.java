@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Description 页面跳转类
  **/
 @Controller
-public class PageContorller {
+public class PageController {
 
     /**
      * 首页
